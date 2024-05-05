@@ -48,7 +48,7 @@ After completing the installation steps, you can start the development server:
 npm start
 ```
 
-This will start the application on [http://localhost:3000](http://localhost:3000).
+This will start the application on [http://localhost:5173](http://localhost:5173).
 
 ## Running Tests
 
