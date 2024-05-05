@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *Antd */
+.ant-menu-item-selected {
+    background-color: transparent !important;
+    position: relative;
+    border-radius: none !important;
+    overflow: visible!important;
+}
+.ant-menu-item-selected:after{
+    content: '';
+    left: 0;
+    width: 5px;
+    position: absolute;
+    height: 100%;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background: blue;
+    transform: rotateY(180deg) ;
+  }
